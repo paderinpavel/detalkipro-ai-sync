@@ -1,0 +1,22 @@
+{
+  "ip": {
+    "rotateCommand": "sudo pkill -f pppd; sleep 3; networksetup -connectpppoeservice \"Модем\"",
+    "minIntervalMs": 45000
+  },
+  "partners": [
+    {
+      "name": "partner-a",
+      "startUrl": "https://partner-a.ru/catalog/",
+      "selectors": {
+        "item": "div.product-card",
+        "url": "a.product-card__link@href",
+        "title": "h1.product__title",
+        "price": "span.product__price",
+        "description": "div.product__description",
+        "sku": "span.product__sku",
+        "stock": "span.product__stock",
+        "images": "img.product__image@src"
+      }
+    }
+  ]
+}
