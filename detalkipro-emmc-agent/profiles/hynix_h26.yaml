@@ -1,0 +1,10 @@
+vendor: Hynix
+model: H26M32001MPR
+version: "5.0"
+user_size_mb: 32768
+boot0_size_mb: 2
+boot1_size_mb: 2
+rmpb_size_mb: 2
+supported: true
+read_only: true
+notes: "Только чтение. RPMB запрещён."
